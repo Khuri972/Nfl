@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registration_activiy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    tools:context="com.Nflicks.RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/reg_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NOTIFLICKS"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"/>
+
+        <TextView
+            android:id="@+id/reg_title"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:gravity="center"
+            android:text="YOUR INFO"
+            android:textSize="22sp"
+            android:background="@color/lighter_gray"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/divider"/>
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/reg_user_img"
+        android:layout_marginTop="50dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/add_img"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/lighter_gray"/>
+
+    <EditText
+        android:id="@+id/reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/reg_name"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textPersonName"
+        android:imeOptions="actionNext"
+        android:textSize="25sp"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/light_gray"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/reg_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/reg_last_name"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textPersonName"
+        android:imeOptions="actionDone"
+        android:textSize="25sp"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/light_gray"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/reg_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_desc"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textcolor"/>
+
+    <TextView
+        android:id="@+id/reg_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_submit"
+        android:textSize="@dimen/login_login_btn"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

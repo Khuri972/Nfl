@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1013674028023",
+    "firebase_url": "https://nflicks-96160.firebaseio.com",
+    "project_id": "nflicks-96160",
+    "storage_bucket": "nflicks-96160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013674028023:android:9cbe122de6f53e70",
+        "android_client_info": {
+          "package_name": "com.Nflicks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013674028023-4uutd2o0ovq9vn6hoqea6qf0drvud79l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Nflicks",
+            "certificate_hash": "9de8c73144dae3fafdc6d6ce3c72b65e50880e84"
+          }
+        },
+        {
+          "client_id": "1013674028023-a9jji9mag13ndln7itvtss12n2l4c23u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoTLgX7gyIKWIlswbvDYZZ03Fw3S7f4qk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013674028023-a9jji9mag13ndln7itvtss12n2l4c23u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

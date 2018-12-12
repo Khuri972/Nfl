@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="toast_redius">10dp</dimen>
+    <dimen name="linear_redius_25">25dp</dimen>
+    <dimen name="linear_redius_10">10dp</dimen>
+    <dimen name="linear_redius_0">0dp</dimen>
+
+    <dimen name="login_mobile_txt">15sp</dimen>
+    <dimen name="login_mobile_edt">25sp</dimen>
+    <dimen name="login_login_btn">20sp</dimen>
+
+    <dimen name="otp_mobile_txt">20sp</dimen>
+    <dimen name="image_border">1dp</dimen>
+</resources>

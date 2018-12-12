@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\android_2.2\\Nflicks\\lib\\build\\intermediates\\res\\merged\\release\\layout\\crop__activity_crop.xml",
+        "source": "E:\\android_2.2\\Nflicks\\lib\\src\\main\\res\\layout\\crop__activity_crop.xml"
+    },
+    {
+        "merged": "E:\\android_2.2\\Nflicks\\lib\\build\\intermediates\\res\\merged\\release\\layout\\crop__layout_done_cancel.xml",
+        "source": "E:\\android_2.2\\Nflicks\\lib\\src\\main\\res\\layout\\crop__layout_done_cancel.xml"
+    }
+]

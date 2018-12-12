@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_main"
+        icon="@drawable/home"
+        inActiveColor="999999"
+        activeColor="#000000"/>
+    <tab
+        id="@+id/tab_search"
+        icon="@drawable/explore"
+        inActiveColor="#999999"
+        activeColor="#000000"/>
+    <tab
+        id="@+id/tab_create_channel"
+        icon="@drawable/create_channel"
+        inActiveColor="#999999"
+        activeColor="#000000"/>
+
+    <tab
+        id="@+id/tab_qrcode"
+        icon="@drawable/qr_scan"
+        inActiveColor="#999999"
+        activeColor="#000000"/>
+
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/setting"
+        inActiveColor="#999999"
+        activeColor="#000000"/>
+</tabs>

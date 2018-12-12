@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Notiflick</string>
+
+    <string name="string_bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="runtime_permissions_txt">Please enable ALL permissions from app settings.</string>
+
+    <!--<string name="terms">accept the NotiflickApp Terms of Service and Privacy Policy. </string>-->
+    <string name="terms">Accept Terms of Service and Privacy Policy. </string>
+    <string name="terms_url">http://notiflick.in/privacy</string>
+    <string name="flick_detail_character">280</string>
+
+    <string name="test_img">test</string>
+    <string name="notflick">NOTIFLICK</string>
+    <string name="contact_sync">Contact Sync</string>
+    <string name="sync">Sync</string>
+    <string name="skype">Skip</string>
+    <string name="update">Update</string>
+    <string name="finish">Finish</string>
+    <string name="search">Search here..</string>
+    <string name="file_not_found">File not found</string>
+
+    <!-- todo login taxt -->
+    <string name="login_mobile_txt">Mobile Number</string>
+    <string name="login_mobile_hint"><font size="18">Enter Mobile Number</font></string>
+    <string name="login_login_btn">LOGIN</string>
+
+    <!-- todo otp -->
+    <string name="otp_intro_txt">We Have Sent You a SMS with the Code</string>
+    <string name="otp_title">Enter OTP Code</string>
+    <string name="otp_submit_btn">SUBMIT</string>
+    <string name="otp_resend_btn">Resend OTP?</string>
+    <string name="otp_hint"><font size="18">Enter OTP</font></string>
+
+
+    <!-- todo registration -->
+    <string name="reg_name">Enter name</string>
+    <string name="reg_last_name">Enter Last name</string>
+    <string name="reg_desc">Enter Your Name and Add \na Profile Picture.</string>
+    <string name="reg_submit">SUBMIT</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_msg">Are You Sure Want To Logout</string>
+
+    <!-- <string name="category_title">Welcome To Notflick\nWhat kind of Idea You\nLooking for</string>-->
+    <string name="category_title">Welcome to Notiflick!</string>
+    <string name="category_sub_title">Pick What You Like To Get Personalised Update</string>
+    <string name="category_submit_txt">Select any five category</string>
+    <string name="category_submit_txt_done">Tap here when you finished </string>
+
+    <!-- following fragment -->
+    <string name="follow_empty">No Channel Following</string>
+    <string name="contact_empty">No Sync Contact</string>
+    <string name="contact_synchronise">Synchronise Your Contact</string>
+
+    <!-- create flick -->
+    <string name="create_channel">CREATE CHANNEL</string>
+    <string name="update_channel">UPDATE CHANNEL</string>
+    <string name="create_channel_name">Channel name</string>
+    <string name="create_channel_contact">Contact No</string>
+    <string name="create_channel_email">Email</string>
+    <string name="create_channel_website">Website</string>
+    <string name="create_channel_location">Select Target Location</string>
+    <string name="create_channel_custom">Custome Link</string>
+    <string name="create_channel_share">Share on Social M</string>
+    <string name="create_channel_address">Address</string>
+    <string name="create_channel_detail">Details</string>
+    <string name="create_channel_birthday">Birth Date</string>
+    <string name="create_channel_gender">Gender</string>
+
+    <string name="name">Name</string>
+    <string name="title">Title</string>
+
+    <!-- range bar slider -->
+    <string name="demo_min_label"></string>
+    <string name="demo_max_label"></string>
+
+
+    <!-- todo validation msg -->
+    <string name="mobile_blank">Enter mobile number</string>
+    <string name="otp_blank">Enter OTP</string>
+    <string name="user_name">Enter name</string>
+    <string name="user_last_name">Enter Last name</string>
+    <string name="email">Enter Valid email address </string>
+    <string name="website">Enter Valid Website address </string>
+    <string name="gender">Please select gender</string>
+
+    <string name="flick_title">Enter Title</string>
+    <string name="flick_detail">Enter Detail</string>
+
+
+    <string name="channel_name">Enter Channel name</string>
+    <string name="channel_detail">Enter Detail</string>
+    <string name="channel_option">Select channel privacy</string>
+    <string name="copy_url">Copy URL</string>
+    <string name="targate_location">Add targate location </string>
+    <string name="targate_audience">Select only one Interest</string>
+    <string name="intrest_category">Add Interest category</string>
+    <string name="channel_image">Select image</string>
+
+
+    <string name="channel_url">Channel URL</string>
+    <string name="empty_url">Enter URL</string>
+    <string name="whatsapp">WhatsApp not Installed</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="follow">Join</string>
+    <string name="followers">Members</string>
+    <string name="unfollow">Leave</string>
+    <string name="requested">Requested</string>
+    <string name="urgent">Receive update as sms</string>    <!--todo change Urgent-->
+    <string name="important">Receive update as notification</string>   <!-- todo Important-->
+    <string name="or_share">or \n Share with</string>
+    <string name="share_on_whatsapp">Share On WhatsApp</string>
+    <string name="copy_share_url">Copy share URL</string>
+    <string name="report_spam">Report Spam</string>
+    <string name="report_inappropriate">Report inappropriate</string>
+    <string name="delete_flick">Delete flick</string>
+    <string name="update_flick">Update flick</string>
+    <string name="file_size">Maximum Document upload Size: 25Mb</string>
+    <string name="delivery_preference">Delivery Preference</string>
+
+    <string name="file_attachment">File Attachment</string>
+    <string name="upload_image">Upload Image</string>
+
+    <string name="update_flicks">Send Flick</string>
+    <string name="send_flick">Send Flick</string>
+    <string name="send_flick_sms">Send SMS</string>
+    <string name="update_flick_sms">Send SMS</string>
+
+    <string name="delete_channel">Delete Channel</string>
+    <string name="delete_channel_msg">Are you sure want to delete this channel</string>
+    <string name="active_channel">Active</string>
+    <string name="deactive_channel">Deactive</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="active_channel_msg">Are you sure want to active this channel</string>
+    <string name="deactive_channel_msg">Are you sure want to deactive this channel</string>
+    <string name="dialog_channel_detail_title">Channel Details</string>
+    <string name="dialog_channel_detail_channel_privacy">Channel privacy</string>
+    <string name="choose">Choose</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="take_gallery">  Gallery</string>
+
+
+    <!-- todo tutoral string -->
+
+    <string name="tap_intro_main_saved_apply">Saved Flick</string>
+    <string name="tap_intro_main_saved_desc_apply">Press​ ​here​ ​to​ ​view​ ​all​ ​your​ ​saved​ ​flicks​ ​here.</string>
+
+    <string name="tap_intro_main_notification_apply">Notification</string>
+    <string name="tap_intro_main_notification_desc_apply">Press​ ​here​ ​to​ ​view​ ​all​ ​your​ ​notification.</string>
+
+    <string name="tap_intro_main_more_apply">More</string>
+    <string name="tap_intro_main_more_desc_apply">Rate​ ​or​ ​share​ ​this​ ​app​ ​to​ ​your​ ​friends.</string>
+
+    <string name="tap_intro_main_tab_home_apply">Home</string>
+    <string name="tap_intro_main_tab_home_desc_apply">See​ ​all​ ​your​ ​flicks​ ​and​ ​channels​ ​that​ ​you​ ​follow.</string>
+
+    <string name="tap_intro_main_tab_search_apply">Explore</string>
+    <string name="tap_intro_main_tab_search_desc_apply">Explore​ ​other​ ​channels​ ​of​ ​your​ ​interests​ ​or​ ​search​ ​your​ ​desired​ ​channel.</string>
+
+    <string name="tap_intro_main_tab_create_channel_apply">Notiflick</string>
+    <string name="tap_intro_main_tab_create_channel_desc_apply">Create​ ​your​ ​own​ ​channels​ ​and​ ​broadcast​ ​your​ ​flicks​ ​to​ ​all.</string>
+
+    <string name="tap_intro_main_tab_qr_code_apply">Qr​ ​scanner</string>
+    <string name="tap_intro_main_tab_qr_code_desc_apply">Scan​ ​QR​ ​to​ ​instantly​ ​follow​ ​your​ ​favourite​ ​channel.</string>
+
+    <string name="tap_intro_main_tab_profile_apply">Settings</string>
+    <string name="tap_intro_main_tab_profile_desc_apply">Set​ ​your​ ​profile​ ​and​ ​interests​ ​for​ ​better​ ​suggestions.</string>
+
+</resources>

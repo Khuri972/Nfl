@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:src="@drawable/icon"
+                app:civ_border_color="@color/image_border"
+                app:civ_border_width="@dimen/image_border" />
+
+            <!--<de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:src="@drawable/icon"
+                app:civ_border_color="@color/image_border"
+                app:civ_border_width="@dimen/image_border" />-->
+
+            <com.github.pavlospt.CircleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/list_following_new_count"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="right"
+                app:cv_fillColor="@color/red"
+                app:cv_fillRadius="0.9"
+                app:cv_strokeColorValue="@color/red"
+                app:cv_strokeWidthSize="0"
+                app:cv_subtitleText=""
+                app:cv_titleColor="@color/white"
+                app:cv_titleSize="8dp"
+                app:cv_titleText="1" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="Item"
+            android:textSize="14sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </LinearLayout>
+
+</LinearLayout>
